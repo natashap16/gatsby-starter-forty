@@ -8,6 +8,8 @@ import v1 from '../assets/images/maskpics/mask on - v1.jpg'
 import v2 from '../assets/images/maskpics/mask on - v2.jpg'
 import insideV2 from '../assets/images/maskpics/inside of v2 mask.jpg'
 import v3 from '../assets/images/maskpics/mask on - v3.jpg'
+import noseWire from '../assets/images/maskpics/close-up of nose wire.jpg'
+import insideV3 from '../assets/images/maskpics/inside of v3 mask.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -79,6 +81,22 @@ const Landing = (props) => (
                             <p>I started from scratch and curved the top to fit my eyes. I still put an inner layer for extra protection, but I flipped it so the seams are inside. Success!</p>
                         </div>
                     </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={noseWire} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>v3 CloseUp</h3>
+                            </header>
+                            <p>I even added a wire to fit the mask around my nose - glasses won't fog now</p>
+                        </div>
+                    </div>
+                    <Link to="/generic" className="image">
+                        <img src={insideV3} alt="" />
+                    </Link>
                 </section>
             </section>
         </div>
