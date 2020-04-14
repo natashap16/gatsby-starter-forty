@@ -1,1 +1,1 @@
-<?php header( 'Location: /src/pages/index.js' ) ;  ?>
+<?php header( 'Location: /public/index.html' ) ;  ?>
