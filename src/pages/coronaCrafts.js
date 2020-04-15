@@ -9,7 +9,7 @@ import v2 from '../assets/images/maskpics/mask on - v2.jpg'
 import insideV2 from '../assets/images/maskpics/inside of v2 mask.jpg'
 import v3 from '../assets/images/maskpics/mask on - v3.jpg'
 import noseWire from '../assets/images/maskpics/close-up of nose wire.jpg'
-import insideV3 from '../assets/images/maskpics/inside of v3 mask.jpg'
+import insideV3 from '../assets/images/maskpics/insideOfV3Mask.jpg'
 
 const Landing = (props) => (
     <Layout>
