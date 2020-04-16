@@ -32,37 +32,37 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Product Management</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Collaborating with Eng, UX, Analytics from identification of user pain point to launch and beyond!</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/PM" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>UX Research</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Understanding users with quant and qualitative research</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/UXResearch" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Product Design</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>Brainstorm, Prototype, Test, Learn, Repeat</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/design" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Coronavirus Crafts</h3>
-                                <p>Nisl sed aliquam</p>
+                                <p>Some lighter activities in 2020</p>
                             </header>
                             <Link to="/coronaCrafts" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Resume</h3>
+                                <p>My work and education history</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/resume" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
