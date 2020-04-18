@@ -8,9 +8,10 @@
 
 	.image {
 		border: 0;
-		display: table-cell;
+		display:block;
+		/* display: table-cell; */
 		position: relative;
-		vertical-align: middle;
+		/* vertical-align: middle; */
 
 
 		img {
