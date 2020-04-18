@@ -34,7 +34,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3><a href="https://www.pegs.com/" target="_blank">Pegasus</a> / Travel Tripper</h3>
+                                <h3><a href="https://www.pegs.com/">Pegasus</a> / Travel Tripper</h3>
                             </header>
                             <h4>Director of Product: 2019 - current</h4>
                             <ul>
@@ -47,7 +47,7 @@ const Landing = (props) => (
                             </ul>
                             <h4>Product Manager: 2015 - 2018</h4>
                             <header className="major">
-                                <h3><a href="https://intent.com/" target="_blank">Intent Media</a></h3>
+                                <h3><a href="https://intent.com/">Intent Media</a></h3>
                             </header>
                             <h4>Product Manager: 2015</h4>
                             <ul>
@@ -68,9 +68,9 @@ const Landing = (props) => (
                             </header>
                             <h4>AltSchool: 2014</h4>
                             <p>UX research. Usability testing & teacher time lapse study.</p>
-                            <h4><a href="https://www.slicedbreaddesign.com/" target="_blank">Sliced Bread Design</a>: 2014</h4>
+                            <h4><a href="https://www.slicedbreaddesign.com/">Sliced Bread Design</a>: 2014</h4>
                             <p>Focus on file storage & sharing software. Research -> Design -> Prototype via HTML, CSS, JS -> Test</p>
-                            <h4><a href="https://www.fluentcity.com/" target="_blank">Fluent City</a>: 2014</h4>
+                            <h4><a href="https://www.fluentcity.com/">Fluent City</a>: 2014</h4>
                             <p>Survey & followup in-person generative research sessions, to define 4 core personas for language learning company.</p>
                             <h4>& more</h4>
                         </div>
