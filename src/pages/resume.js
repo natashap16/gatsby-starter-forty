@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import PMrole from '../assets/images/pm_image-with-space.png'
+import PMrole from '../assets/images/pm_image.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
