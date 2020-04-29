@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import PMrole from '../assets/images/pm_image-with-space.png'
-import pic09 from '../assets/images/pic09.jpg'
+import UXrole from '../assets/images/ux-with-space.png'
 import pic10 from '../assets/images/pic10.jpg'
 
 const Landing = (props) => (
@@ -59,7 +59,7 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={UXrole} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
