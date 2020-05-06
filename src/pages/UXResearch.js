@@ -23,8 +23,8 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Overview</h2>
                     </header>
-                    <p>I've always loved psychology, and user experience research is a great extension of that. From brainstorming how to design a study that minimizes bias, to those wonderful observations and surprises you encounter, I'm well-versed in both generative and evaluate user research.</p>
-                    <p>Sidenote: Have you ever read I Never Promised You a Rose Garden? It's great, and was my first glimpse into mental illness. Fascinating!</p>
+                    <p>I've always loved psychology, and user experience research is a great extension of that. From brainstorming how to design a study that minimizes bias, to those wonderful observations and surprises you encounter, I'm well-versed in both <span class="boldText">generative and evaluate user research</span>.</p>
+                    <p>Sidenote: Have you ever read <span class="bookTitle">I Never Promised You a Rose Garden</span>? It's great, and was my first glimpse into mental illness. Fascinating!</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -37,7 +37,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Testing at Google</h3>
                             </header>
-                            <p>During my 3+ years on Google Operations, I did a few 20% projects in UX research. I designed, recruited for, and evaluated usability studies for:</p>
+                            <p>During my 3+ years on Google Operations, I did a few 20% projects in UX research. I designed, recruited for, and evaluated <span class="boldText">usability studies</span> for:</p>
                             <ul>
                                 <li>socialization within Google Shopping</li>
                                 <li>consumer setup experience for Google Fiber</li>
@@ -55,7 +55,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>AltSchool (now Altitude Learning)</h3>
                             </header>
-                            <p>During grad school, I interned at AltSchool during its early days, where I did my first time lapse study. I observed individual and group classroom activities to explain to broader team what goes on in classroom.</p>
+                            <p>During grad school, I interned at AltSchool during its early days, where I did my first <span class="boldText">time lapse study</span>. I observed individual and group classroom activities to explain to broader team what goes on in classroom.</p>
                         </div>
                     </div>
                 </section>
