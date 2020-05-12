@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
+import vincere from '../assets/images/PD-stanford/vincere.png'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
@@ -21,24 +21,25 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Design meets need</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>At Stanford, I was trained in the full design process, from identifying market need, finding solutions, developing and iterating on the launch product. Of course, design research is a key part of this process.</p>
+                    <p>You can see some of my favorite projects from school here.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={vincere} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Vincere</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>A site designed to anonymously connect survivors of sexual assault. They would connect over an audio stream and a shared drawing canvas, so they could doodle and create something together while they talk.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/vincere" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
