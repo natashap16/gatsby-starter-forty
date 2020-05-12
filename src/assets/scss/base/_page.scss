@@ -37,6 +37,10 @@
 
 	}
 
+	.altSection {
+		background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+	}
+
 	.bookTitle {
 		text-decoration:underline;
 	}

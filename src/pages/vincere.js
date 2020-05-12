@@ -49,7 +49,7 @@ const Generic = (props) => (
                 </div>    
             </section>
 
-            <section id="three2">
+            <section id="three" class="altSection">
                 <div className="inner">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -69,30 +69,8 @@ const Generic = (props) => (
                     </div>    
                 </div>
             </section>
-                
 
-            <section id="three" className="spotlights">
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={v1Vincere} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Version 1</h3>
-                            </header>
-                            <p>Our original concept focused on finding just the right person to talk to. To do so, we had the idea that:</p>
-                            <ul>
-                                <li><span class="boldText">Tell:</span> Survivors would record and post the story of their experience.</li>
-                                <li><span class="boldText">Listen:</span> Survivors would listen to others' shared stories and reach out to them via the website to set up a time to talk 1:1.</li>
-                                <li><span class="boldText">Connect:</span> Two survivors would meet in an online, collaborative drawing space with an audiostream to talk.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section> 
-
-            <section id="four">
+            <section id="four" class="altSection">
                 <div className="inner">
                     <header className="major">
                         <h4>Mocks</h4>
@@ -110,7 +88,7 @@ const Generic = (props) => (
                     </div>
                 </div>
             </section>  
-            <section id="five">
+            <section id="five" class="altSection">
                 <div className="inner">
                     <header className="major">
                         <h4>User Testing Round 1</h4>
