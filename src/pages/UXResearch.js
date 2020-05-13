@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import googleUX from '../assets/images/ux_research/usability-testing-google.jpg'
-import altschoolUX from '../assets/images/ux_research/time-lapse-altschool.jpg'
+import googleUX from '../assets/images/ux_research/usability-testing-google.png'
+import altschoolUX from '../assets/images/ux_research/time-lapse-altschool.png'
 import pic10 from '../assets/images/pic10.jpg'
 
 const Landing = (props) => (
