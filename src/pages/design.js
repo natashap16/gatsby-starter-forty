@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import vincere from '../assets/images/PD-stanford/vincere-full-screen.png'
-import express from '../assets/images/PD-stanford/Expressway.png'
+import express from '../assets/images/PD-stanford/Expressway2.png'
 import socialize from '../assets/images/PD-stanford/Socialize-upcoming-events.jpg'
 
 const Landing = (props) => (
