@@ -27,6 +27,7 @@
 			}
 		}
 
+
 		td {
 			padding: 0.75em 0.75em;
 		}
@@ -54,6 +55,38 @@
 				tr {
 					td {
 						border: solid 1px _palette(border);
+						border-left-width: 0;
+						border-top-width: 0;
+
+						&:first-child {
+							border-left-width: 1px;
+						}
+					}
+
+					&:first-child {
+						td {
+							border-top-width: 1px;
+						}
+					}
+				}
+			}
+
+			thead {
+				border-bottom: 0;
+			}
+
+			tfoot {
+				border-top: 0;
+			}
+		}
+
+		&.alt-on-white {
+			border-collapse: separate;
+
+			tbody {
+				tr {
+					td {
+						border: solid 1px #979797;
 						border-left-width: 0;
 						border-top-width: 0;
 

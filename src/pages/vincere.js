@@ -16,11 +16,11 @@ const Generic = (props) => (
             <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <div id="main" className="alt">
+        <div id="main2">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Vincere</h1>
+                    <header className="projectTitle">
+                        <h1>Vincere: art therapy & conversations for assault survivors</h1>
                     </header>
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -43,20 +43,17 @@ const Generic = (props) => (
                     </div>    
                 </div>
             </section>
-            <section id="two">
+
+
+            <section id="two" class="altSection">
                 <div className="inner">
                     <h2>Design process</h2>
-                </div>    
-            </section>
-
-            <section id="three" class="altSection">
-                <div className="inner">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <span className="image fit"><img src={v1Vincere} alt="" /></span>
+                            <span className="image fit addBorder"><img src={v1Vincere} alt="" /></span>
                         </div>
                         <div className="col-6">
-                            <header className="major">
+                            <header>
                                 <h3>Version 1</h3>
                             </header>
                             <p>Our original concept focused on finding just the right person to talk to. To do so, we had the idea that:</p>
@@ -70,9 +67,9 @@ const Generic = (props) => (
                 </div>
             </section>
 
-            <section id="four" class="altSection">
+            <section id="three" class="altSection">
                 <div className="inner">
-                    <header className="major">
+                    <header>
                         <h4>Mocks</h4>
                     </header>
                     <p>Once we had an idea, we created some rough mocks to get a sense of the user flow. We showed multiple versions to users. The main distinction related to which survivors you could connect with: ones who were immediately available (easier) or ones who were most like you in some way (harder to find).</p>
@@ -88,16 +85,16 @@ const Generic = (props) => (
                     </div>
                 </div>
             </section>  
-            <section id="five" class="altSection">
+            <section id="four" class="altSection">
                 <div className="inner">
-                    <header className="major">
+                    <header>
                         <h4>User Testing Round 1</h4>
                     </header>
                     <p>With these ideas, we did some rough Wizard-of-Oz testing. Here's what we found:</p>
-                    <span className="image main"><img src={woz} alt="" /></span>
+                    <span className="image main addBorder"><img src={woz} alt="" /></span>
                     <h4>User Testing Round 1 - Impact</h4>
                     <div className="table-wrapper">
-                        <table className="alt">
+                        <table className="alt-on-white">
                             <thead>
                                 <tr>
                                     <th>What happened</th>
@@ -130,7 +127,7 @@ const Generic = (props) => (
                     </div>
                 </div>
             </section> 
-            <section id="six">
+            <section id="five">
                 <div className="inner">
                     <h3>Version 2</h3>
                     <p><span class="boldText">Goal:</span> To create a safe space to encourage conversation</p>

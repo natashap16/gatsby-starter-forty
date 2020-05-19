@@ -17,7 +17,7 @@ const Landing = (props) => (
 
         <BannerLanding projectTitle="Product Design" projectTopDesc="Work in progress - stay tuned"/>
 
-        <div id="main">
+        <div id="main2">
             <section id="one">
                 <div className="inner">
                     <header className="major">

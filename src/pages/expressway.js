@@ -13,11 +13,11 @@ const Generic = (props) => (
             <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <div id="main" className="alt">
+        <div id="main2" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Expressway</h1>
+                    <header className="projectTitle">
+                        <h1>Expressway: socio-emotional learning for early education</h1>
                     </header>
                     <span className="image main"><img src={angadAndMe} alt="" /></span>
                     <h2>Summary</h2>

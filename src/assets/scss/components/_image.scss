@@ -41,6 +41,11 @@
 			margin: 0 0 _size(element-margin) 0;
 			width: 100%;
 
+			&.addBorder {
+				border: 1px solid #ddd;
+				padding: 5px;
+			}
+
 			img {
 				width: 100%;
 			}
@@ -50,6 +55,10 @@
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
+
+			&.addBorder {
+				border: 1px solid #ddd;
+			}
 
 			img {
 				width: 100%;

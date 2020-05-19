@@ -8,7 +8,7 @@ const Generic = (props) => (
     <Layout>
         <Helmet>
             <title>Natasha Prats</title>
-            <meta name="description" content="Generic Page" />
+            <meta name="description" content="Socialize mobile app project" />
         </Helmet>
 
         <div id="main" className="alt">
@@ -23,7 +23,6 @@ const Generic = (props) => (
                         <div className="col-6">
                             <p><span class="boldText">The challenge:</span> Design an easy-to-use product to facilitate event invitations</p>
                             <p><span class="boldText">What we did:</span> paper prototypes, usability testing, survey research, Google Analytics analysis, Ruby on Rails final product</p>
-                            
                         </div>
                         <div className="col-6">
                             <p><span class="boldText">The result:</span> A mobile web app where you can broadcast upcoming plans to dormmates. If desired, friends can RSVP, so others can see who's going.</p>
