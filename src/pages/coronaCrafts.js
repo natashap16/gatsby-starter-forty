@@ -10,6 +10,8 @@ import insideV2 from '../assets/images/maskpics/inside of v2 mask.jpg'
 import v3 from '../assets/images/maskpics/mask on - v3.jpg'
 import noseWire from '../assets/images/maskpics/close-up of nose wire.jpg'
 import insideV3 from '../assets/images/maskpics/insideOfV3Mask.jpg'
+import baking from '../assets/images/otherCrafts/baking.png'
+import cards from '../assets/images/otherCrafts/greeting_cards.png'
 
 const Landing = (props) => (
     <Layout>
@@ -27,19 +29,11 @@ const Landing = (props) => (
                         <h2>Mask Making</h2>
                     </header>
                     <p>When the CDC recommended that everyone should start wearing homemade masks, it was time to pull out the sewing machine. Thankfully, I had some fabric that I had been hanging onto, not wanting to give up on the idea that I could be a dress maker. I was finally able to put the fabric to good use, without even giving up on my dress maker identity!</p>
+                    <p><span class="boldText">Research:</span> Though I didn't follow an exact pattern, I did research to get some tips. With no elastic, I knew I'd have to use the fabric as ties, too.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Research</h3>
-                            </header>
-                            <p>Though I didn't follow an exact pattern, I did research to get some tips. With no elastic, I knew I'd have to use the fabric as ties, too.</p>
-                        </div>
-                    </div>
-                </section>
+
                 <section>
                     <Link to="/generic" className="image">
                         <img src={v1} alt="" />
@@ -97,6 +91,49 @@ const Landing = (props) => (
                     <Link to="/generic" className="image">
                         <img src={insideV3} alt="" />
                     </Link>
+                </section>
+            </section>
+
+            <section id="three">
+                <div className="inner">
+                    <header className="major">
+                        <h2>Other fun!</h2>
+                    </header>
+                    <p>How else have I been spending my time? Keep reading to see!</p>
+                </div>
+            </section>
+
+            <section id="four" className="spotlights">
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={cards} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Greeting cards</h3>
+                            </header>
+                            <p>I stocked up on markers, construction paper, stickers, and more, and have been "spreading joy" to friends and family. I've even pushed past traditional birthday cards to: housewarming, pet sympathy, random jokes, and even 'Happy Mental Health Month'.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={baking} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Baking & Mixing</h3>
+                            </header>
+                            <ul>My favorites so far:
+                                <li><a href="https://www.oliviascuisine.com/brazilian-flan/" target="_blank">Flan</a></li>
+                                <li><a href="https://smittenkitchen.com/2008/12/carrot-cake-with-maple-cream-cheese-frosting/" target="_blank">Carrot Cake</a></li>
+                                <li><a href="https://smittenkitchen.com/2013/02/salted-caramel-brownies/" target="_blank">Salted caramel brownies</a></li>
+                                <li><a href="https://smittenkitchen.com/2016/05/confetti-cookies/" target="_blank">Sprinkle cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
             </section>
         </div>

@@ -6,8 +6,8 @@ import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic03 from '../assets/images/sketch3.png'
+import pic04 from '../assets/images/mask3.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
@@ -52,7 +52,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Coronavirus Crafts</h3>
+                                <h3>Making the best of shelter-in-place</h3>
                                 <p>Some lighter activities in 2020</p>
                             </header>
                             <Link to="/coronaCrafts" className="link primary"></Link>
