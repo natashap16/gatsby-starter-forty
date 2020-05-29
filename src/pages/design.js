@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import vincere from '../assets/images/PD-stanford/vincere-full-screen.png'
 import express from '../assets/images/PD-stanford/Expressway2.png'
 import socialize from '../assets/images/PD-stanford/socialize.png'
+import pinkHeart from '../assets/images/PD-stanford/pinkHeart.png'
 
 const Landing = (props) => (
     <Layout>
@@ -72,6 +73,22 @@ const Landing = (props) => (
                             <p>A mobile web app where you can broadcast upcoming plans to dormmates. If desired, friends can RSVP, so others can see who's going.</p>
                             <ul className="actions">
                                 <li><Link to="/socialize" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/emoticon-chat" className="image">
+                        <img src={pinkHeart} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Emoticon Chat</h3>
+                            </header>
+                            <p>We reimagined a way to express emotions in online communication. After brainstorming and selecting two ideas, we built working prototypes.</p>
+                            <ul className="actions">
+                                <li><Link to="/emoticon-chat" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>

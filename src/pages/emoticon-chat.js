@@ -56,7 +56,7 @@ const Generic = (props) => (
                         <div className="col-4">
                             <header>
                                 <h3></h3>
-                                <p><span class="boldText">Receiving:</span> I get one of my friend's emotions - full-screen, in-my-face, and only for a moment, like in real life. Clips are tinted with colors, like pink for  </p>
+                                <p><span class="boldText">Receiving:</span> I get one of my friend's emotions - full-screen, in-my-face, and only for a moment, like in real life. Clips are tinted with colors, like pink for &lt;3 </p>
                                 <span className="image fit"><img src={v2B} alt="" /></span>
                             </header>
                         </div>

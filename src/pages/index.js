@@ -57,29 +57,15 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/coronaCrafts" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Resume</h3>
-                                <p>My work and education history</p>
-                            </header>
-                            <Link to="/resume" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Resume</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>My work and education history</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/resume" className="button next">View now</Link></li>
                             </ul>
                         </div>
                     </section>

@@ -20,7 +20,7 @@ const Landing = (props) => (
         <div id="main">
             <section id="one">
                 <div className="inner">
-                    <p>I've been working in tech for over a decade. Below you can review my experience by functional area, but the common theme through my career is a focus on the user.</p>
+                    <p>I've been working in tech for over a decade. Below you can review my experience by functional area. The common theme through my career is a focus on the user.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -41,6 +41,7 @@ const Landing = (props) => (
                             <h4>Associate Director of Product: 2018 - 2019</h4>
                             <ul>
                                 <li>Travel Tripper merges with Pegasus. I join the transition team to lead the merging of our products.</li>
+                                <li>Partnering with large Las Vegas casino hotel chain to design and develop best-in-class call center and reservation management platform (started in 2017)</li>
                             </ul>
                             <h4>Product Manager: 2015 - 2018</h4>
                             <header className="major">
