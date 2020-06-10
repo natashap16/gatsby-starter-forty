@@ -8,6 +8,7 @@ import vincere from '../assets/images/PD-stanford/vincere-full-screen.png'
 import express from '../assets/images/PD-stanford/Expressway2.png'
 import socialize from '../assets/images/PD-stanford/socialize.png'
 import pinkHeart from '../assets/images/PD-stanford/pinkHeart.png'
+import mrsushi from '../assets/images/PD-stanford/mrsushi-thumbnail.png'
 
 const Landing = (props) => (
     <Layout>
@@ -89,6 +90,23 @@ const Landing = (props) => (
                             <p>We reimagined a way to express emotions in online communication. After brainstorming and selecting two ideas, we built working prototypes.</p>
                             <ul className="actions">
                                 <li><Link to="/emoticon-chat" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            
+                <section>
+                    <Link to="/mrsushi" className="image">
+                        <img src={mrsushi} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Rolls of the World</h3>
+                            </header>
+                            <p>A series of stuffed toys. Each toy is a rolled-up blanket in the style of a food roll from its home country. These toys allow for multiple types of play and learning.</p>
+                            <ul className="actions">
+                                <li><Link to="/mrsushi" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
