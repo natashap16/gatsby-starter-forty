@@ -44,7 +44,6 @@ const Generic = (props) => (
                 </div>
             </section>
 
-
             <section id="three">
                 <div className="inner">
                     <h2>Design process</h2>
