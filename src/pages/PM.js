@@ -15,16 +15,12 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding projectTitle="Product Management" projectTopDesc="Work in progress - stay tuned"/>
+        <BannerLanding projectTitle="Product Management" projectTopDesc="Cross-functional collaborator, UX focus"/>
 
         <div id="main">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h2>Cross-functional collaborator, UX focus</h2>
-                    </header>
-                    <p>5+ years as a product manager</p>
-                    <p>2 years as a manager of product managers</p>
+                    <p>5+ years as a product manager; 2 years as a manager of product managers</p>
                     <p>I love the variability of the PM role, where I can work closely with different departments depending on the lifecycle phase of a product. I've launched, optimized, and retired products.</p>
                 </div>
             </section>
@@ -62,17 +58,14 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Other products</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            <ul>
+                                <li><span class="boldText">Intent Media:</span> Internal multi-variate testing configuration tool</li>
+                                <li><span class="boldText">Pegasus:</span> Hotel reservation management tool, including two-factor authentication</li>
                             </ul>
                         </div>
                     </div>

@@ -15,7 +15,7 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding projectTitle="User Experience Research" projectTopDesc="Work in progress - stay tuned"/>
+        <BannerLanding projectTitle="User Experience Research" projectTopDesc="Consulting & several side projects at work"/>
 
         <div id="main">
             <section id="one">

@@ -6,7 +6,8 @@ import BannerLanding from '../components/BannerLanding'
 
 import PMrole from '../assets/images/pm_image-with-space.png'
 import UXrole from '../assets/images/ux-with-space.png'
-import pic10 from '../assets/images/pic10.jpg'
+import ops from '../assets/images/operations.png'
+import sem from '../assets/images/digital_marketing.png'
 
 const Landing = (props) => (
     <Layout>
@@ -15,17 +16,19 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding projectTitle="Resume" projectTopDesc="BS, MA from Stanford. 10 years in tech, with a varierty of experience across PM, UX, Ops, and Advertising"/>
+        <BannerLanding projectTitle="Resume" projectTopDesc="BS, MA from Stanford. 10 years in tech, with a variety of experience across PM, UX, Ops, and Advertising"/>
 
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    <p>I've been working in tech for over a decade. Below you can review my experience by functional area. The common theme through my career is a focus on the user.</p>
-                </div>
-            </section>
             <section id="two" className="spotlights">
                 <section>
-                        <Link to="/generic" className="image">
+                    <div className="content">
+                        <div className="inner">
+                            <h3>PRODUCT MANAGEMENT: 5+ years</h3>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                        <Link className="image">
                             <img src={PMrole} alt="" />
                         </Link>
                     <div className="content">
@@ -35,15 +38,17 @@ const Landing = (props) => (
                             </header>
                             <h4>Director of Product: 2019 - current</h4>
                             <ul>
+                                <li>Associate Director of Product: 2018 - 2019</li>
+                                <li>Product Manager: 2015 - 2018</li>
+                            </ul>
+                            <h4>Key accomplishments:</h4>
+                            <ul>
                                 <li>Won approval for, and now leading, next-generation hotel tool redesign, based on close inter-departmental collaboration and research</li>
                                 <li>Managing a team of PMs and UX Designers</li>
+                                <li>Retired and replaced two product platforms: mobile guest reservations and call center application</li>
+                                <li>Partnered with large Las Vegas casino hotel chain to design and develop best-in-class call center and reservation management platform</li>
                             </ul>
-                            <h4>Associate Director of Product: 2018 - 2019</h4>
-                            <ul>
-                                <li>Travel Tripper merges with Pegasus. I join the transition team to lead the merging of our products.</li>
-                                <li>Partnering with large Las Vegas casino hotel chain to design and develop best-in-class call center and reservation management platform (started in 2017)</li>
-                            </ul>
-                            <h4>Product Manager: 2015 - 2018</h4>
+                            <br/>
                             <header className="major">
                                 <h3><a href="https://intent.com/" target="_blank">Intent Media</a></h3>
                             </header>
@@ -56,7 +61,14 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <div className="content">
+                        <div className="inner">
+                            <h3>USER EXPERIENCE: 2 years</h3>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="" className="image">
                         <img src={UXrole} alt="" />
                     </Link>
                     <div className="content">
@@ -75,17 +87,51 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                    <div className="content">
+                        <div className="inner">
+                            <h3>OPERATIONS: 3 years</h3>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="" className="image">
+                        <img src={ops} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Google</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            <p>Product Specialist for Google Shopping: 2010-2013</p>
+                            <ul>
+                                <li>Helped launch Retail Promotions & Local Inventory Ads by onboarding strategic merchants</li>
+                                <li>Redesigned and streamlined troubleshooting processes for merchant issues</li>
+                                <li>Collaborated with Product on improvements based on support experience and analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className="content">
+                        <div className="inner">
+                            <h3>DIGITAL MARKETING: 1 year</h3>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="" className="image">
+                        <img src={sem} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Mercantila</h3>
+                            </header>
+                            <p>Online Advertising & Marketing Manager: 2009-2010</p>
+                            <ul>
+                                <li>SEM via Google AdWords</li>
+                                <li>Designed and launched new newsletter</li>
+                                <li>Acquired by Google</li>
                             </ul>
                         </div>
                     </div>
