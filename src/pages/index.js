@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
+import pic02 from '../assets/images/ux_research/usability-testing-big.png'
 import pic03 from '../assets/images/sketch3.png'
 import pic04 from '../assets/images/mask3.jpg'
 import pic05 from '../assets/images/pic05.jpg'
