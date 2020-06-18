@@ -9,6 +9,7 @@ import express from '../assets/images/PD-stanford/Expressway2.png'
 import socialize from '../assets/images/PD-stanford/socialize.png'
 import pinkHeart from '../assets/images/PD-stanford/pinkHeart.png'
 import mrsushi from '../assets/images/PD-stanford/mrsushi-thumbnail.png'
+import toadette from '../assets/images/PD-stanford/toadette/toadette-full.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -107,6 +108,22 @@ const Landing = (props) => (
                             <p>A series of stuffed toys. Each toy is a rolled-up blanket in the style of a food roll from its home country. These toys allow for multiple types of play and learning.</p>
                             <ul className="actions">
                                 <li><Link to="/mrsushi" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/mrsushi" className="image">
+                        <img src={toadette} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Toadette Stool</h3>
+                            </header>
+                            <p>My undergraduate senior thesis. An ergonomic stool with the benefits of a yoga ball and the flexibiliy/mobility of an office chair.</p>
+                            <ul className="actions">
+                                <li><Link to="/toadette" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
