@@ -86,7 +86,9 @@ const Generic = (props) => (
                     <h2>The result</h2>
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <iframe width="460" height="259" src="https://www.youtube.com/embed/2itbTLC2_Pw" frameborder="0" allowfullscreen></iframe>
+                            <div class="videoWrapper">
+                                <iframe width="460" height="259" src="https://www.youtube.com/embed/2itbTLC2_Pw" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                         <div className="col-6">
                             <p>As stated in the summary above, the result was a series of two car games centered around telling stories about particular emotions:</p>

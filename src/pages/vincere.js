@@ -35,7 +35,9 @@ const Generic = (props) => (
                         </div>
                         <div className="col-6">
                             <h2></h2>
-                            <iframe width="560" height="315" src="//www.youtube.com/embed/oIDyZDA4EVw" frameborder="0" allowfullscreen></iframe>
+                            <div class="videoWrapper">
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/oIDyZDA4EVw" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             <br/>
                             <br/>
                             <blockquote>"I guess all that matters is that I have a safe stay with supportive people, and it's sometimes hard to find that anywhere else."</blockquote>

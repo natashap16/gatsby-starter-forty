@@ -44,7 +44,9 @@ const Generic = (props) => (
                     <div className="grid-wrapper">
                         <div className="col-4">
                             <h3>Version 1</h3>
-                            <iframe src="//www.youtube.com/embed/IQMBnmodc_c" frameborder="0" allowfullscreen></iframe>
+                            <div class="videoWrapper">
+                                <iframe src="//www.youtube.com/embed/IQMBnmodc_c" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                         <div className="col-4">
                             <header>
