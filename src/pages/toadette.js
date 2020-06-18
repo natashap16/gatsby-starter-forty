@@ -115,7 +115,7 @@ const Generic = (props) => (
                     </header>
                     <div className="grid-wrapper">
                         <div className="col-4">
-                            <p>During the design process, I was focused on my users, by continuous testing and redesigning of the stool. Here are the highlights from the feedback for the final design.</p>
+                            <p>During the design process, I was focused on my users, via continuous testing and redesign of the stool. Here are the highlights from the feedback for the final design.</p>
                         </div>
                         <div className="col-8">
                             <div class="videoWrapper">
