@@ -18,7 +18,7 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding projectTitle="Product Design" projectTopDesc="Work in progress - stay tuned"/>
+        <BannerLanding projectTitle="Product Design" projectTopDesc="The complete design process, from finding the right problem to solve, to implementing and launching the best solution"/>
 
         <div id="main">
             <section id="one">
@@ -26,8 +26,8 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Design meets need</h2>
                     </header>
-                    <p>At Stanford, I was trained in the full design process, from identifying market need, finding solutions, developing and iterating on the launch product. Of course, design research is a key part of this process.</p>
-                    <p>You can see some of my favorite projects from school here.</p>
+                    <p>At Stanford, I was trained in the full design process, from identifying market need, finding solutions, developing and iterating on the launch product. I've brought these processes into the corporate world through product management roles.</p>
+                    <p>I can't share my corporate projects here, but you can see some of my favorite projects from school here.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
