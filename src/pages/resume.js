@@ -43,9 +43,9 @@ const Landing = (props) => (
                             </ul>
                             <h4>Key accomplishments:</h4>
                             <ul>
-                                <li>Won approval and led next-generation hotel tool redesign, based on close inter-departmental collaboration and research</li>
                                 <li>Managing a team of PMs and UX Designers</li>
-                                <li>Retired and replaced two product platforms: mobile guest reservations and call center application</li>
+                                <li>Retired two product platforms, and led launch of replacements: mobile guest reservations and call center application</li>
+                                <li>Significant client interaction and request-based enhancements, esp within casino space</li>
                             </ul>
                             <br/>
                             <header className="major">

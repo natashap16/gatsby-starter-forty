@@ -50,7 +50,8 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Travel Tripper's new call center</h3>
                             </header>
-                            <p>I led the design and PM efforts for a new call center for Travel Tripper (now Pegasus) in 2017, starting with direct feedback from existing users about user pain points, and from existing engineers on development pain points. We decided to rebuild completely, and have since monitored feedback and metrics. We even designed and developed a next-generation product for casino hotels built on this design.</p>
+                            <p>I led the design and PM efforts for a new call center for Travel Tripper (now Pegasus) in 2017, starting with direct feedback from existing users about user pain points and from existing engineers on development pain points. We decided to rebuild completely, and have since monitored feedback and metrics.</p>
+                            <p>We also designed and developed a next-generation product for casino hotels built on this design.</p>
                             <ul className="actions">
                                 <li><a target="_blank" href="https://www.pegs.com/reservation-solutions/hotel-call-center-service/" className="button">See on Pegasus</a></li>
                             </ul>
