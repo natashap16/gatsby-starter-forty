@@ -43,10 +43,9 @@ const Landing = (props) => (
                             </ul>
                             <h4>Key accomplishments:</h4>
                             <ul>
-                                <li>Won approval for, and now leading, next-generation hotel tool redesign, based on close inter-departmental collaboration and research</li>
+                                <li>Won approval and led next-generation hotel tool redesign, based on close inter-departmental collaboration and research</li>
                                 <li>Managing a team of PMs and UX Designers</li>
                                 <li>Retired and replaced two product platforms: mobile guest reservations and call center application</li>
-                                <li>Partnered with large Las Vegas casino hotel chain to design and develop best-in-class call center and reservation management platform</li>
                             </ul>
                             <br/>
                             <header className="major">
@@ -54,7 +53,6 @@ const Landing = (props) => (
                             </header>
                             <h4>Product Manager: 2015</h4>
                             <ul>
-                                <li>Evaluated multivariate testing program via user and market research</li>
                                 <li>Led design, development, and launch of improved multivariate testing program</li>
                             </ul>
                         </div>
