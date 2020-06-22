@@ -27,7 +27,7 @@ const Landing = (props) => (
                         <h2>Design meets need</h2>
                     </header>
                     <p>At Stanford, I was trained in the full design process, from identifying market need, finding solutions, developing and iterating on the launch product. I've brought these processes into the corporate world through product management roles.</p>
-                    <p>I can't share my corporate projects here, but you can see some of my favorite projects from school here.</p>
+                    <p>I can't share the full process behind my corporate projects here, but you can see this info about some of my favorite projects from school, below.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
