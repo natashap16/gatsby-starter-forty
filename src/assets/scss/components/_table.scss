@@ -87,8 +87,10 @@
 				tr {
 					td {
 						border: solid 1px #979797;
-						border-left-width: 0;
-						border-top-width: 0;
+						/// border: solid 1px #E70E0E;
+						border-left-width: 1px;
+						border-top-width: 1px;
+						padding:10px;
 
 						&:first-child {
 							border-left-width: 1px;

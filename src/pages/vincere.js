@@ -98,9 +98,9 @@ const Generic = (props) => (
                     <div className="table-wrapper">
                         <table className="alt-on-white">
                             <thead>
-                                <tr>
-                                    <th>What happened</th>
-                                    <th>So we decided to</th>
+                                <tr className="boldText">
+                                    <th>What happened:</th>
+                                    <th>So we decided to:</th>
                                 </tr>
                             </thead>
                             <tbody>

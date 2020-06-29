@@ -51,7 +51,7 @@ const Generic = (props) => (
                                 <li><span class="boldText">Who:</span> A dorm of ~40 people at Stanford.</li>
                                 <li><span class="boldText">How:</span> Users were asked to randomly choose link 1 or 2 from an email to determine which version they saw. (Ended up with 20-30 visitors for each version.)</li>
                                 <li><span class="boldText">Results:</span> Ultimately, we didn't see a significant difference in bounce rate, page views, event joins, or other markers, so we proceeded based on qualitative feedback that said users preferred the visual styling of the menu implemented above.</li>
-                                <li><span class="boldText">Impact:</span>Because this round of user testing was conducted with dorm members actually using the app, this was a good proof-of-concept of the initial need. We received a lot of positive feedback.</li>
+                                <li><span class="boldText">Impact:</span> Because this round of user testing was conducted with dorm members actually using the app, this was a good proof-of-concept of the initial need. We received a lot of positive feedback.</li>
                             </ul>
                         </li>
                     </ol>
