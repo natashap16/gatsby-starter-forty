@@ -6,7 +6,7 @@ import BannerLanding from '../components/BannerLanding'
 
 import googleUX from '../assets/images/ux_research/usability-testing-google.png'
 import altschoolUX from '../assets/images/ux_research/time-lapse-altschool.png'
-import pic10 from '../assets/images/pic10.jpg'
+import personas from '../assets/images/ux_research/personas.png'
 
 const Landing = (props) => (
     <Layout>
@@ -24,7 +24,6 @@ const Landing = (props) => (
                         <h2>Overview</h2>
                     </header>
                     <p>I've always loved psychology, and user experience research is a great extension of that. From brainstorming how to design a study that minimizes bias, to those wonderful observations and surprises you encounter, I'm well-versed in both <span class="boldText">generative and evaluate user research</span>.</p>
-                    <p>Sidenote: Have you ever read <span class="bookTitle">I Never Promised You a Rose Garden</span>? It's great, and was my first glimpse into mental illness. Fascinating!</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -56,6 +55,19 @@ const Landing = (props) => (
                                 <h3>AltSchool (now Altitude Learning)</h3>
                             </header>
                             <p>During grad school, I interned at AltSchool during its early days, where I did my first <span class="boldText">time lapse study</span>. I observed individual and group classroom activities to explain to broader team what goes on in classroom.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={personas} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Fluent City personas</h3>
+                            </header>
+                            <p>Consulting project with a foreign language school for adults in NYC. Surveys and open-ended interviews to define personas and offer product recommenations.</p>
                         </div>
                     </div>
                 </section>
