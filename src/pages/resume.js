@@ -34,9 +34,16 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
+                                <h3><a href="https://www.crisistextline.org/" target="_blank">Crisis Text Line</a></h3>
+                            </header>
+                            <h4>Advanced Product Manager: 2020 - current</h4>
+                            <ul>
+                                <li>Developing products for Crisis Text Line volunteers</li>
+                            </ul>
+                            <header className="major">
                                 <h3><a href="https://www.pegs.com/" target="_blank">Pegasus</a> / Travel Tripper</h3>
                             </header>
-                            <h4>Director of Product: 2019 - current</h4>
+                            <h4>Director of Product: 2019 - 2020</h4>
                             <ul>
                                 <li>Associate Director of Product: 2018 - 2019</li>
                                 <li>Product Manager: 2015 - 2018</li>
