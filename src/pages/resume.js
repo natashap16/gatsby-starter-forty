@@ -23,7 +23,7 @@ const Landing = (props) => (
                 <section>
                     <div className="content">
                         <div className="inner">
-                            <h3>PRODUCT MANAGEMENT: 5+ years</h3>
+                            <h3>PRODUCT MANAGEMENT: 6+ years</h3>
                         </div>
                     </div>
                 </section>
