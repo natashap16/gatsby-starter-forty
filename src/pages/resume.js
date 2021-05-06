@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import PMrole from '../assets/images/pm_image-with-space.png'
-import UXrole from '../assets/images/ux-with-space.png'
+import UXrole from '../assets/images/equitable-ux.png'
 import ops from '../assets/images/operations.png'
 import sem from '../assets/images/digital_marketing.png'
 
@@ -38,7 +38,7 @@ const Landing = (props) => (
                             </header>
                             <h4>Advanced Product Manager: 2020 - current</h4>
                             <ul>
-                                <li>Developing products for Crisis Text Line volunteers</li>
+                                <li>Developing products for Crisis Text Line supervisors, volunteers, and texters</li>
                             </ul>
                             <header className="major">
                                 <h3><a href="https://www.pegs.com/" target="_blank">Pegasus</a> / Travel Tripper</h3>

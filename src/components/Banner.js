@@ -7,7 +7,7 @@ const Banner = (props) => (
                 <h1>Hi, my name is Natasha Prats</h1>
             </header>
             <div className="content">
-                <p>I'm a design thinker at heart, with 10 years of experience in tech. I bring my diverse experience, including 5 years of strong product management experience, to learn about users and develop the next great product for them.</p>
+                <p>10 years of experience in tech, 5+ as a product manager. I'm a design thinker at heart, interested in inclusive and equitable design.</p>
             </div>
         </div>
     </section>

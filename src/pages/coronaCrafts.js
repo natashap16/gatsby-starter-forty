@@ -20,7 +20,7 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding projectTitle="Coronavirus Crafts" projectTopDesc="While I've been sheltering in place and furloughed, I've had fun doing some hands-on crafts again"/>
+        <BannerLanding projectTitle="Coronavirus Crafts" projectTopDesc="Many of us had to find new hobbies this past year. I've had fun doing some hands-on crafts again"/>
 
         <div id="main">
             <section id="one">
