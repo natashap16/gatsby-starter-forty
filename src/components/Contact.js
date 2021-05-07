@@ -17,8 +17,10 @@ const Contact = (props) => (
                         <li><a href="https://www.facebook.com/ncprats" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                         <li><a href="https://github.com/natashap16" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
                         <li><a href="https://www.linkedin.com/in/natasha-prats-79990311/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf_qbvTWNhA6FlP60nU1WLWQ5jf7VTxVw7OBkLoJNEq2W6zdQ/viewform?usp=sf_link">Give feedback on website</a></li>
                     </ul>
                 </div>
+
         </div>
     </section>
 )
